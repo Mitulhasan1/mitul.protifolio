@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexble-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -26,4 +29,10 @@ section{
     border-radius: 5px;
 
 }
-
+.Experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
